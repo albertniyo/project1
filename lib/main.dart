@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/first_screen.dart';
+import 'src/welcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +11,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My App',
-      home: const HomeScreen(),
+      title: 'ALU Connect',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF2E7D32),
+          primary: const Color(0xFF2E7D32),
+        ),
+        fontFamily: 'Poppins',
+        useMaterial3: true,
+        cardTheme: const CardThemeData(
+          elevation: 2,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(16)),
+          ),
+        ),
+      ),
+      home: const WelcomeScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
