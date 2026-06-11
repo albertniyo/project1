@@ -49,7 +49,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [const Color(0xFF2E7D32), const Color(0xFF4CAF50)],
+            colors: [const Color.fromARGB(255, 18, 66, 1),
+              const Color.fromARGB(255, 3, 71, 5),],
           ),
         ),
         child: SafeArea(
