@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'ALU Connect',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF2E7D32),
-          primary: const Color(0xFF2E7D32),
+          seedColor: const Color(0x1A4818),
+          primary: const Color(0x1A4818),
         ),
         fontFamily: 'Poppins',
         useMaterial3: true,
