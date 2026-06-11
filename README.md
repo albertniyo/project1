@@ -76,9 +76,6 @@ The project includes platform folders for Android, iOS, Web, Linux, macOS, and W
 ```
 lib/
 ├── main.dart                        # App entry point, MaterialApp setup
-├── screens/
-│   ├── first_screen.dart            # HomeScreen and its sub-widgets
-│   └── event_details_screen.dart    # Full event detail view
 └── src/
     ├── welcome.dart                 # Onboarding and role selection
     ├── home.dart                    # Main navigation scaffold (bottom nav)
