@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'chat.dart';
 
 class MainNavigationScreen extends StatefulWidget {
   final String role; // to support 'student' and 'club_leader' roles
